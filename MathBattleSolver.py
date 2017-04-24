@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver import Chrome
 
-GAME_URL = 'https://tbot.xyz/math/#eyJ1IjoyNDUzNzU0NjMsIm4iOiJSY...'
+GAME_URL = 'https://tbot.xyz/math/#eyJ1Ijo1ODAxNzY2MywibiI6ItCi0LjQvNC+0YTQtdC5INCQ0YDRgtC10LXQsiIsImciOiJNYXRoQmF0dGxlIiwiY2kiOiI3NDI0ODQ3NDI4MDYzNDE4NDgzIiwiaSI6IkFnQUFBS1BhQUFEQXg2UU5wTDduRHB1TUVsOCJ9MmM4ZDY5ZTE2NjFiYzViMmZhMzA5YTFiZjA2OWVjZTQ=&tgShareScoreUrl=tg%3A%2F%2Fshare_game_score%3Fhash%3DcuQ7mRDqAubTadqsa_I8pFYNib3S-PHLpZVViR9_2Sc'
 WEBDRIVER_PATH = '/home/test/Downloads/chromedriver'
-NUMBER_OF_WINS = 5000
+NUMBER_OF_WINS = 89
 
 browser = Chrome(WEBDRIVER_PATH)
 browser.get(GAME_URL)
